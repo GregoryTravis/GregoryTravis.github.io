@@ -1,39 +1,38 @@
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
 <style>
-body {
-  display: grid;
-  grid-template-columns: minmax(750px, 55%) 1fr;
-  padding: 0;
-  margin: 0;
-}
-
-.sidebar {
-  height: 100vh;
-  
-  //   etc.
-  background: lightpink;
-    float:left;
-    width:600px;
-    height:240px;
-    margin-top:20px;
-  font-size: 2rem;
-  text-align: center;
-}
-
-.content {
-  padding: 2rem;
-}
-
-body {
-  font-family: system-ui, serif;
-}
+body {background-color:#C0C0C0;}
 </style>
 <center>
 <span style="font-size: 120px; font-family: 'Orbitron', sans-serif;">Rhythmr</span>
 </center>
 <br/>
-<div class="sidebar" contenteditable>
-  <img src="i/ss.png" style='height: 200%; width: 100%; object-fit: contain'/>
-</div>
-<p class="content" contenteditable>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nulla architecto maxime modi nisi. Quas saepe dolorum, architecto quia fugit nulla! Natus, iure eveniet ex iusto tempora animi quibusdam porro?</p>
+<table width="100%"><tr>
+<td width="25%">
+  <img src="i/ss.png" style='weight: 100%; width: 100%; object-fit: contain'/>
+</td>
+<td width="75%">
+<span style="font-size: 24px; font-family: 'Orbitron', sans-serif; vertical-align: top;">
+
+Rhythmr is an interactive system, implemented in Haskell, for creating
+ear-pleasing rhythm loops from randomly-acquired audio files. The user iterates
+through an unending stream of randomly combined music loops, swiping left or
+right on each one to indicate whether they like it or not. Rhythmr derives a
+model of which combinations sound good based on user input, and from that,
+produces a complete song by inserting the chosen combinations into a predefined
+score.
+
+<p/>
+
+<a href="https://soundcloud.com/greg-travis-689967840/sets/rhythmr">Listen!</a>
+<br/>
+<a href="https://github.com/GregoryTravis/rhythmr">Source</a>
+<br/>
+<a href="https://drive.google.com/file/d/1t3JLomkt5I0_Ehdv_QhfpAcpb2fEr65o/view?usp=sharing">MacOS Binary</a>
+<br/>
+<a href="https://github.com/GregoryTravis/rhythmr/blob/main/doc/About.md">About</a>
+<br/>
+<a href="https://github.com/GregoryTravis/rhythmr/blob/main/doc/Documentation.md">Docs</a>
+
+</span>
+</td>
+</tr></table>
