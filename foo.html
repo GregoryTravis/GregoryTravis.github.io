@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+  background-color: #222;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  _opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("i/bg.png");
+  height: 100%;
+}
+
+/* unvisited link */
+a:link {
+  color: #0e0;
+}
+
+/* visited link */
+a:visited {
+  color: #0a0;
+}
+
+/* mouse over link */
+a:hover {
+  color: #5f5;
+}
+
+/* selected link */
+a:active {
+  color: #3f9;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span style="color: #0f0; opacity: 1.0; font-size: 120px; font-family: 'Orbitron', sans-serif;">Rhythmr</span>
+      <br/>
+    <span style="opacity: 0.5">
+    <span style="opacity: 1.0; font-size: 120px; font-family: 'Orbitron', sans-serif;">Rhythmr</span>
+    </span>
+      <br/>
+    <span class="border">FULL PAGE</span><br>
+      <br/>
+    <span class="border">BACKGROUND IMAGE</span>
+  </div>
+</div>
+
+<p style="padding:5px 15px">This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
+
+
+<center>
+<table width="80%"><tr>
+<td width="55%">
+<span style="font-size: 24px; font-family: 'Orbitron', sans-serif; vertical-align: top;">
+
+Rhythmr is an interactive system, implemented in Haskell, for creating
+ear-pleasing rhythm loops from randomly-acquired audio files. The user iterates
+through an unending stream of randomly combined music loops, swiping left or
+right on each one to indicate whether they like it or not. Rhythmr derives a
+model of which combinations sound good based on user input, and from that,
+produces a complete song by inserting the chosen combinations into a predefined
+score.
+
+<p/>
+
+<a href="https://soundcloud.com/greg-travis-689967840/sets/rhythmr">Listen!</a>
+<br/>
+<a href="https://github.com/GregoryTravis/rhythmr">Source</a>
+<br/>
+<A href="https://github.com/GregoryTravis/rhythmr/blob/main/doc/Installation.md">Installation</a>
+<br/>
+<a href="https://github.com/GregoryTravis/rhythmr/blob/main/doc/About.md">About</a>
+<br/>
+<a href="https://github.com/GregoryTravis/rhythmr/blob/main/doc/Documentation.md">Docs</a>
+<br/>
+<a href="https://github.com/fakey">test test tset</a>
+
+</span>
+</td>
+<td width="45%">
+  <img src="i/ss.png" style='weight: 100%; width: 100%; object-fit: contain'/>
+</td>
+</tr></table>
+</center>
+
+</body>
+</html>
